@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>My Portfolio | Contact</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+    
+  <body>
+      
+  <header>
+    <nav>
+        <div><a href="index.html">HOME</a></div>
+        <div><a href="about.html">ABOUT</a></div>
+      <div><a href="contact.html">CONTACT</a></div>
+      <div><a href="work.html">MY WORK</a></div>
+      
+    </nav>
+  </header>
+      
+<h1 class="glow">Eva Beilin</h1>
+      <h2>Get in touch with me here!</h2>
+      
+<div class="container">
+ 
+
+<form name="myForm" onsubmit="return validateForm()" method="post">
+
+  <p class="name">
+    <input name="name" type="text" class="feedback-input" placeholder="Name" id="name" />
+  </p>
+
+  <p class="email">
+    <input name="email" type="text" class="feedback-input" id="email" placeholder="Email" />
+  </p>
+
+  <p class="text">
+    <textarea name="fname" class="feedback-input" id="comment" placeholder="Message"></textarea>
+  </p>
+
+
+  <div class="submit">
+    <input type="submit" value="Submit">
+  </div>
+
+</form>
+</div>
+      
+<script src="script.js"></script>    
+      
+</body>
+</html>

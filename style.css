@@ -1,0 +1,133 @@
+body{
+   background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a8/ESO_577-24_FORS2_VLT.jpg");
+   font-family: 'Orbitron', sans-serif;
+   color: white;
+
+}
+
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: black;
+}
+
+nav > div {
+  margin: 35px;
+    
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 40px;
+    
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-size: 15px;
+    background-color: black;
+
+}
+
+ #planet {
+     display: flex;
+     justify-content: center;
+} 
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #fff;
+} 
+
+a {
+  color:#fff;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+a:hover {
+  color: deeppink;
+  text-shadow:0px 0px 10px hotpink;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+
+.glow {
+  font-size: 50px;
+  color: #fff;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  background: black;
+  opacity: 0.7;
+  padding: 30px;
+  width: 500px;
+  height: 100px;
+  border-radius: 15px;
+  color: white;
+  font-size: 13px; 
+  text-align: center; 
+  letter-spacing: 3px;
+}
+
+.work-link {
+  background: deeppink;
+  opacity: 0.6;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin: 30px;
+  line-height: 250px;
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.work-link:hover {
+  box-shadow: 0 0 20px 10px #ffffff;
+    
+}
+
+
+
+
+
+
+  
